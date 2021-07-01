@@ -32,3 +32,22 @@
     }
 
 }
+@media all and (max-width: 350px) {
+    .header{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header .logo-container{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .main-body .box {
+        width:300px;
+    }
+    .showcase .showcase-text{
+            font-size: 1rem;
+    }
+
+}
